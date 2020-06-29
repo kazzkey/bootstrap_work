@@ -1,5 +1,8 @@
 {
   "name": "work_app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "4.1.3",
+    "jquery": "^3.5.1"
+  }
 }
