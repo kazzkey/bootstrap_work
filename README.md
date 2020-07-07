@@ -5,4 +5,6 @@
 * rails 5.2.4
 * PostgreSQL 12.2
 
-### Start Bootstrapのテーマをつけるワーク
+### StartBootstrapのテーマをつけるワーク
+### ログイン機能の実装ワーク(7/3)
+### お気に入り機能の実装ワーク(7/7)
