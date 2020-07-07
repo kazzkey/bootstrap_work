@@ -1,2 +1,19 @@
 <h1><%= @user.name %>のページ</h1>
 <p>メールアドレス: <%= @user.email %></p>
+
+
+<h3>お気に入りしたブログ記事</h3>
+<div class="">
+  <% @favorites.each do |favorite| %>
+    <div class="card m-3 p-3">
+      作成者：<%= favorite.blog.user.name %><br>
+      タイトル：<%= favorite.blog.title %><br>
+      内容：<%= favorite.blog.content %><br>
+    </div>
+  <% end %>
+</div>
+
+<h3>お気に入りされた合計数</h3>
+<div class="">
+  <%= @favorite_count %>
+</div>

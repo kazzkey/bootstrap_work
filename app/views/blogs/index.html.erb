@@ -49,6 +49,7 @@
                 <%= link_to blog.title, blog_path(blog) %>
               </h2>
               <h3 class="post-subtitle">
+                <%= blog.user.name %><br>
                 <%= blog.content %>
               </h3>
             </a>
